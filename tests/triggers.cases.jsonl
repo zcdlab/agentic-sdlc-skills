@@ -1,0 +1,22 @@
+{"prompt": "make it better", "expect": "0-pick-skill"}
+{"prompt": "build an agent that auto-triages our incoming support emails into Jira tickets", "expect": "1-plan-write-agent-spec"}
+{"prompt": "I wrote a prompt that extracts invoice totals from emails. How do I know it actually works?", "expect": "2-build-create-evals"}
+{"prompt": "our agent keeps calling search when it should call get_ticket - review our MCP tool definitions", "expect": "2-build-review-tools"}
+{"prompt": "I want the agent to build the whole app on its own over the next few days, but each new session starts from scratch", "expect": "2-build-multi-session-agent"}
+{"prompt": "I tweaked the system prompt and tried it on a few examples, looks good. We have an eval set in evals/. Can I merge?", "expect": "3-test-rerun-evals-before-merge"}
+{"prompt": "we're about to let customers chat with our refund agent. Can it be jailbroken into issuing refunds?", "expect": "3-test-agent-safety"}
+{"prompt": "I renamed my skills - check the right skill still fires for each kind of request", "expect": "3-test-skill-triggering"}
+{"prompt": "cut v1.4 of our support agent - prompt, model and tools", "expect": "4-ship-pin-release"}
+{"prompt": "the new agent version has been on 5% of traffic for two hours, can we go to 100%?", "expect": "4-ship-gradual-rollout"}
+{"prompt": "we found out from customers that the agent was broken all weekend. Set up alerting so that doesn't happen again", "expect": "5-prod-set-up-alerts"}
+{"prompt": "offline evals say 93% but I don't trust them. I want a daily quality number from real production requests", "expect": "5-prod-measure-quality"}
+{"prompt": "finance says the bill for our agent doubled - cut the cost per run", "expect": "5-prod-reduce-cost-latency"}
+{"prompt": "success rate dropped from 92% to 70% right after this morning's deploy - roll it back", "expect": "6-fix-roll-back-agent"}
+{"prompt": "here's what happened in one run: the agent called the same tool 20 times in a row and then said it was done. What went wrong?", "expect": "6-fix-debug-one-run"}
+{"prompt": "our eval score dropped from 88% to 74% overnight, let's fix the prompt", "expect": "6-fix-analyze-eval-failures"}
+{"prompt": "my Claude Code session keeps auto-compacting and forgetting earlier instructions - where is my context going?", "expect": "6-fix-context-bloat"}
+{"prompt": "the agent crashed with KeyError 'choices' in parse_response at agent.py:88, here's the stack trace", "expect": "systematic-debugging"}
+{"prompt": "brainstorm some product ideas for how our team could use AI", "expect": "brainstorming"}
+{"prompt": "a single request is slow - p95 latency of our agent went from 8s to 40s, make it faster", "expect": "5-prod-reduce-cost-latency"}
+{"prompt": "rename foo to bar in utils.py", "expect": "NONE"}
+{"prompt": "what does git rebase --onto do?", "expect": "NONE"}
