@@ -1,0 +1,10 @@
+{"prompt": "my tests fail randomly on CI, look at it", "expect": ["0-pick-skill", "systematic-debugging"]}
+{"prompt": "what's the model id for the latest opus?", "expect": "claude-api"}
+{"prompt": "rename foo to bar in utils.py", "expect": "NONE"}
+{"prompt": "I want to build something that summarizes my standups", "expect": ["0-pick-skill", "brainstorming"]}
+{"prompt": "clean this up", "expect": ["0-pick-skill", "simplify"]}
+{"prompt": "what does git rebase --onto do", "expect": "NONE"}
+{"prompt": "make a skill for our release checklist", "expect": ["0-pick-skill", "writing-skills"]}
+{"prompt": "I think my change is done, ship it", "expect": ["0-pick-skill", "verification-before-completion"]}
+{"prompt": "fix the auth bug, stack trace: KeyError 'token' at auth.py:42", "expect": ["0-pick-skill", "systematic-debugging"]}
+{"prompt": "make it better", "expect": "0-pick-skill"}
