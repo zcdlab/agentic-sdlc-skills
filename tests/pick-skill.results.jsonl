@@ -1,0 +1,20 @@
+{"case": 1, "trial": 1, "prompt": "my tests fail randomly on CI, look at it", "expect": ["pick-skill", "systematic-debugging"], "got": "NONE", "tools_before": ["Glob", "Read", "Read", "Read", "Read", "Read"]}
+{"case": 1, "trial": 2, "prompt": "my tests fail randomly on CI, look at it", "expect": ["pick-skill", "systematic-debugging"], "got": "systematic-debugging", "tools_before": ["Skill"]}
+{"case": 2, "trial": 1, "prompt": "what's the model id for the latest opus?", "expect": ["claude-api"], "got": "claude-api", "tools_before": ["Skill"]}
+{"case": 2, "trial": 2, "prompt": "what's the model id for the latest opus?", "expect": ["claude-api"], "got": "claude-api", "tools_before": ["Skill"]}
+{"case": 3, "trial": 1, "prompt": "rename foo to bar in utils.py", "expect": ["NONE"], "got": "NONE", "tools_before": ["Read", "Grep"]}
+{"case": 3, "trial": 2, "prompt": "rename foo to bar in utils.py", "expect": ["NONE"], "got": "NONE", "tools_before": ["Read", "Grep"]}
+{"case": 4, "trial": 1, "prompt": "I want to build something that summarizes my standups", "expect": ["pick-skill", "brainstorming"], "got": "pick-skill", "tools_before": ["Skill"]}
+{"case": 4, "trial": 2, "prompt": "I want to build something that summarizes my standups", "expect": ["pick-skill", "brainstorming"], "got": "pick-skill", "tools_before": ["Skill"]}
+{"case": 5, "trial": 1, "prompt": "clean this up", "expect": ["pick-skill", "simplify"], "got": "pick-skill", "tools_before": ["Skill"]}
+{"case": 5, "trial": 2, "prompt": "clean this up", "expect": ["pick-skill", "simplify"], "got": "pick-skill", "tools_before": ["Skill"]}
+{"case": 6, "trial": 1, "prompt": "what does git rebase --onto do", "expect": ["NONE"], "got": "NONE", "tools_before": ["Glob", "Grep", "Read", "Grep"]}
+{"case": 6, "trial": 2, "prompt": "what does git rebase --onto do", "expect": ["NONE"], "got": "NONE", "tools_before": []}
+{"case": 7, "trial": 1, "prompt": "make a skill for our release checklist", "expect": ["pick-skill", "writing-skills"], "got": "NONE", "tools_before": ["Grep", "Glob", "Read", "Read", "Grep"]}
+{"case": 7, "trial": 2, "prompt": "make a skill for our release checklist", "expect": ["pick-skill", "writing-skills"], "got": "NONE", "tools_before": ["Glob", "Grep", "Read", "Read", "Grep", "Glob"]}
+{"case": 8, "trial": 1, "prompt": "I think my change is done, ship it", "expect": ["pick-skill", "verification-before-completion"], "got": "NONE", "tools_before": ["Read", "Glob", "Read", "Read", "Read", "Read", "Read"]}
+{"case": 8, "trial": 2, "prompt": "I think my change is done, ship it", "expect": ["pick-skill", "verification-before-completion"], "got": "NONE", "tools_before": ["Glob", "Read", "Read", "Read", "Read", "Read", "Grep"]}
+{"case": 9, "trial": 1, "prompt": "fix the auth bug, stack trace: KeyError 'token' at auth.py:42", "expect": ["pick-skill", "systematic-debugging"], "got": "NONE", "tools_before": ["Glob", "Read", "Read", "Read", "Grep"]}
+{"case": 9, "trial": 2, "prompt": "fix the auth bug, stack trace: KeyError 'token' at auth.py:42", "expect": ["pick-skill", "systematic-debugging"], "got": "NONE", "tools_before": ["Glob", "Read", "Read", "Read", "Read"]}
+{"case": 10, "trial": 1, "prompt": "make it better", "expect": ["pick-skill"], "got": "pick-skill", "tools_before": ["Skill"]}
+{"case": 10, "trial": 2, "prompt": "make it better", "expect": ["pick-skill"], "got": "NONE", "tools_before": ["Glob", "Read", "Read", "Read", "Read", "Read", "Grep"]}
